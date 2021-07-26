@@ -2,6 +2,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: lightyellow;
+    padding: 0 5vw;
 }
 header{
     margin-right: 0;
@@ -59,7 +60,12 @@ p{
     height: auto;
 }
 
-.contatiner{
+
+.flexRow {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
+}
+
+.card{
+max-width: 25vw;
 }
