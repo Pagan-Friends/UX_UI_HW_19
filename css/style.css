@@ -3,13 +3,15 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: lightyellow;
     padding: 0 5vw;
+    width: 60vw;
+    margin-left: 20vw;
 }
 header{
-    margin-right: 0;
     display:flex;
     justify-content: space-between;
+    margin-bottom: 5vh;
 }
-ul{
+.navul{
     list-style:none;
     display:flex;
 }
@@ -22,14 +24,35 @@ li a{
 
 .hero{
     display:flex;
-    width:100vw;
     justify-content: space-between;
+    margin-bottom: 5vh;
+    /* transform: translateX(-200%);
+    transition: transform 0.5s ease-in; */
+    display:none;
+    transition: display 0.2s ease-in;
 }
 
+/* .show{
+    transform: translateX(0);   
+} */
+
 .left{
+    display:grid;
+    justify-content: center;
     align-self: center;
+    width: 50%;
+}
+
+.left p{
+width: 50%;
+}
+
+.right{
+width: 50%;
+}
+
+.right img{
     width: 100%;
-    padding-right: 3vw;
 }
 
 h4{
@@ -46,10 +69,6 @@ p{
     font-size: .8rem;
 }
 
-.row{
-    display: flex;
-    justify-content: space-between;
-}
 .image{
     height: 75px;
     width: 75px;
@@ -67,5 +86,6 @@ p{
 }
 
 .card{
-max-width: 25vw;
+max-width: 15vw;
+width: 15vw;
 }
