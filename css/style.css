@@ -89,3 +89,7 @@ p{
 max-width: 15vw;
 width: 15vw;
 }
+
+.section-title{
+    justify-content: center;   
+}
